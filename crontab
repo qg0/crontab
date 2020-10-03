@@ -1,0 +1,1 @@
+*/30 * * * * /usr/bin/nice -n 19 /usr/bin/zypper --non-interactive --no-gpg-checks --quite dist-upgrade --recommends --replacefiles --force-resolution --auto-agree-with-licenses --allow-downgrade --allow-name-change --allow-vendor-change >> /dev/null
